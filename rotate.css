@@ -71,7 +71,7 @@ button {
 }
 
 /*
-@media screen and (max-device-width: 480px) { /* Media query for small screens, adjust the width as needed */
+//@media screen and (max-device-width: 480px) { /* Media query for small screens, adjust the width as needed */
     body {
       transform: rotate(-90deg); /* Rotate the entire body by -90 degrees */
       transform-origin: left top; /* Set the rotation origin to the top left corner */
