@@ -76,7 +76,7 @@ button {
       transform-origin: left top; /* Set the rotation origin to the top left corner */
       width: 100vh; /* Set the width to 100% of viewport height */
       height: 100vw; /*Set the height to 100% of viewport width */
-      overflow-x: hidden; /* Hide horizontal overflow */
+      overflow-x: visible; /* Hide horizontal overflow */
       position: fixed; /* Fix the position of the rotated body */
       top: 100%; /* Push the rotated body off-screen */
       left: 0;
