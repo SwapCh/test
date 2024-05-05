@@ -70,18 +70,18 @@ button {
     position: absolute;
 }
 
-/*
-//@media screen and (max-device-width: 480px) { /* Media query for small screens, adjust the width as needed */
+
+@media screen and (max-device-width: 550px) {
     body {
-      transform: rotate(-90deg); /* Rotate the entire body by -90 degrees */
-      transform-origin: left top; /* Set the rotation origin to the top left corner */
-      width: 100vh; /* Set the width to 100% of viewport height */
-      height: 100vw; /*Set the height to 100% of viewport width */
-      overflow-x: visible; /* Hide horizontal overflow */
-      position: fixed; /* Fix the position of the rotated body */
-      top: 100%; /* Push the rotated body off-screen 
-      left: 0;
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        height: 100vw;
+        overflow-x: hidden; /* Adjusted to hide horizontal overflow */
+        position: fixed;
+        top: 100%;
+        left: 0;
+        padding: 80px;
     }
-  }
-*/
+}
     
