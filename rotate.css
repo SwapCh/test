@@ -70,6 +70,7 @@ button {
     position: absolute;
 }
 
+/*
 @media screen and (max-device-width: 480px) { /* Media query for small screens, adjust the width as needed */
     body {
       transform: rotate(-90deg); /* Rotate the entire body by -90 degrees */
@@ -78,8 +79,9 @@ button {
       height: 100vw; /*Set the height to 100% of viewport width */
       overflow-x: visible; /* Hide horizontal overflow */
       position: fixed; /* Fix the position of the rotated body */
-      top: 100%; /* Push the rotated body off-screen */
+      top: 100%; /* Push the rotated body off-screen 
       left: 0;
     }
   }
+*/
     
