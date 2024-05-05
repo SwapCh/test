@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    /*display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+    background-color: rgb(40, 21, 21);
+    color: white;
+    height: 100vh;
+}
+
+.brain{
+    height:400px;
+}
+.navbar{
+    height:50px;
+    font-size:xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(18, 14, 14);
+    position:sticky;
+}
+
+.header{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(20, 7, 7);
+    background-blend-mode: lighten;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text{
+    margin:20px;
+    padding: 20px;
+}
+
+.kol{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.mybrain{
+}
+
+.categories{
+    padding: 50px;
+    text-align: center;
+    font-size: larger;
+}
+
+.cinemas{
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.holder{
+    display: flex;
+    justify-content: center;
+}
+
+.bollywood{
+    background-image: url("bolly.jpg");
+    background-size: cover;
+}
+
+.hollywood{
+    background-image: url("holly3.jpg");
+    background-size: cover;
+}
+
+.italian{
+    background-image: url("italian.jpg");
+    background-size: cover;
+}
+
+.regionals{
+    background-image: url("regional.jpg");
+    background-size: contain;
+}
+
+.eternals{
+    background-image: url("bolly.jpg");
+    background-size: cover;
+}
+
+.bolly-music{
+    background-image: url("bolly-music.jpg");
+    background-size:contain;
+}
+
+.qawwali{
+    background-image: url("qawwali.jpg");
+    background-size: cover;
+}
+
+.ghazal{
+    background-image: url("ghazal2.jpg");
+    background-size: cover;
+}
+
+.rock{
+    background-image: url("rock3.jpg");
+    background-size: cover;
+}
+
+.pop{
+    background-image: url("pop2.jpg");
+    background-size: cover;
+}
+
+.thriller{
+    background-image: url("thriller.jpg");
+    background-size: cover;
+}
+
+.russian{
+    background-image: url("russian.jpg");
+    background-size: cover;
+}
+
+.indian{
+    background-image: url("indian.jpg");
+    background-size: cover;
+}
+
+.english{
+    background-image: url("english.jpg");
+    background-size: cover;
+}
+
+.bengali{
+    background-image: url("bengali.jpg");
+    background-size: cover;
+}
+
+@media (max-width: 400px){
+    .header{
+        flex-direction: column;
+    }
+
+    .holder{
+        flex-wrap: wrap;
+    }
+
+}

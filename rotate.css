@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;  Adjust height as needed */
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adjust gap between images */
+}
+
+.images {
+    flex: 0 0 calc(25% - 10px); /* Adjust width of each image span */
+}
+
+button {
+    margin-top: 10px; /* Add margin between image-container and button-container */
+}
+
+.image-container{
+    width: 300px; 
+    height: 300px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform 0.7s;
+    
+}
+
+.image-container span{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(400px);
+}
+
+.image-container span img{
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+
+.image-container .images img {
+    width: 200px; 
+    height: 200px; 
+}
+
+.button-container{
+    position: absolute;
+}
+
+@media screen and (max-device-width: 480px) { /* Media query for small screens, adjust the width as needed */
+    body {
+      transform: rotate(-90deg); /* Rotate the entire body by -90 degrees */
+      transform-origin: left top; /* Set the rotation origin to the top left corner */
+      width: 100vh; /* Set the width to 100% of viewport height */
+      height: 100vw; /*Set the height to 100% of viewport width */
+      overflow-x: hidden; /* Hide horizontal overflow */
+      position: fixed; /* Fix the position of the rotated body */
+      top: 100%; /* Push the rotated body off-screen */
+      left: 0;
+    }
+  }
+    
